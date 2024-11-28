@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home"
 import Signin from "./pages/Signin"
 import Signup from "./pages/Signup"
+import './index.css'
 
 const root = document.getElementById("root");
 
