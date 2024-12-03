@@ -15,7 +15,7 @@ function Header(){
                 <Button classname='bg-transparent rounded-full px-6 text-white hover:text-black hover:bg-white duration-300 transition-colors'>
                     Register
                 </Button>
-                <Button classname='bg-yellow-400 text-white px-6 rounded-full hover:bg-yellow-500 transition-colors duration-300' href='/signin'>
+                <Button classname='bg-yellow-400 text-white px-6 rounded-full hover:bg-yellow-500 transition-colors duration-300' href='signin'>
                     Login
                 </Button>
             </div>
