@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import SidebarFooter from "./Sidebarfooter"
+import SidebarFooter from "./SidebarFooter"
 import SidebarHeader from "./SidebarHeader"
 
 function Sidebar(props){
