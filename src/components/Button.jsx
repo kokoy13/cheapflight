@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom"
+
 /* eslint-disable react/prop-types */
 function Button(props){
-    const {name, children, classname} = props
+    const {children, classname, href = ''} = props
     return(
-        <button className={`${classname} font-semibold py-2`} type="submit" name={name}>{children}</button>
+        <Link to={`/${href}`} className={`${classname} font-semibold py-2 text-center`}>
+            {children}
+        </Link>
     )
 }
 

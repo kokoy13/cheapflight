@@ -4,12 +4,14 @@ import Form from "../components/Form"
 import CheckBox from "../components/CheckBox"
 import Button from "../components/Button"
 import Trusted from "../components/Trusted"
-import Coverflight from "../assets/flight.jpg"
+import CoverCar from "../assets/car.jpg"
 
 function Signup(){
     return(
             <div className="flex items-center justify-center overflow-hidden min-h-dvh min-w-dvw px-16 bg-black" style={{ fontFamily: `Inria Sans`}}>
-                <Sidebar background={Coverflight}/>
+                <Sidebar background={CoverCar}>
+                    Car Rental Made Simple.
+                </Sidebar>
                 <div className="px-16 flex flex-col gap-1 justify-center bg-white h-dvh">
                     <div className="flex flex-col gap-3 mb-5">
                         <h1 className="text-5xl font-bold" style={{ fontFamily: `Inria Sans` }}>Create an Account</h1>
@@ -17,7 +19,7 @@ function Signup(){
                     </div>
                     <Form></Form>
                     <CheckBox name='confirm'>I aggree to term and conditions</CheckBox>
-                    <Button classname='rounded-lg bg-yellow-400 text-white hover:bg-yellow-600 transform transition-colors duration-200 ease-in text-xl m-1' name='signup'>Sign Up</Button>
+                    <Button classname='rounded-lg bg-yellow-400 text-white hover:bg-yellow-600 transform transition-colors duration-200 ease-in text-xl m-1'>Sign Up</Button>
                     <h3 className="text-sm text-center">By signing up you accept our <Link to='' className="underline text-yellow-400 hover:text-yellow-600 transition-colors">term of use</Link> and <Link to='' className="underline text-yellow-400 hover:text-yellow-600 transition-colors">privacy policy</Link>.</h3>
                     <Trusted/>
                 </div>
