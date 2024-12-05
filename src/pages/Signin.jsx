@@ -1,18 +1,17 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom"
 import Sidebar from "../components/Sidebar"
-import Form from "../components/Form"
 import CheckBox from "../components/CheckBox"
 import Button from "../components/Button"
 import Trusted from "../components/Trusted"
-import Coverflight from "../assets/flight.jpg"
+import Coverflight from "../assets/flight-cover.png"
 import Input from "../components/Input"
 import username from "../assets/username.png"
 import password from "../assets/password.png"
 import fb from "../assets/facebook.png"
 import google from "../assets/google.png"
 
-function Signin(props){
+function Signin(){
     return(
             <div className="flex items-center justify-center overflow-hidden min-h-dvh min-w-dvw px-16 bg-black" style={{ fontFamily: `Inria Sans`}}>
                 <Sidebar background={Coverflight}>
@@ -38,7 +37,7 @@ function Signin(props){
                             Forgot Password?
                         </Link>
                     </div>
-                    <Button classname='rounded-lg bg-yellow-400 text-white hover:bg-yellow-600 transform transition-colors duration-200 ease-in text-xl m-1 mb-5' href='/'>Sign Up</Button>
+                    <Button classname='rounded-lg bg-yellow-400 text-white hover:bg-yellow-600 transform transition-colors duration-200 ease-in text-xl m-1 mb-5'>Sign Up</Button>
                     <div className="flex justify-center items-center gap-2">
                         <div className="py-[0.1px] w-full bg-black"></div>
                         <h3 className="text-sm text-nowrap">or login with</h3>

@@ -4,7 +4,7 @@ import Form from "../components/Form"
 import CheckBox from "../components/CheckBox"
 import Button from "../components/Button"
 import Trusted from "../components/Trusted"
-import CoverCar from "../assets/car.jpg"
+import CoverCar from "../assets/car-rental.jpg"
 
 function Signup(){
     return(
