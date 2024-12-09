@@ -9,7 +9,7 @@ import CoverCar from "../assets/car-rental.jpg"
 function Signup(){
     return(
             <div className="flex items-center justify-center overflow-hidden min-h-dvh min-w-dvw px-16 bg-black" style={{ fontFamily: `Inria Sans`}}>
-                <Sidebar background={CoverCar}>
+                <Sidebar background={CoverCar} xcar='bg-white'>
                     Car Rental Made Simple.
                 </Sidebar>
                 <div className="px-16 flex flex-col gap-1 justify-center bg-white h-dvh">

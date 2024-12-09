@@ -13,7 +13,7 @@ function Header(){
                 <Button classname='px-[12px] w-ful rounded-full bg-white hover:bg-slate-200 duration-300 transition-colors'>
                     Rp
                 </Button>
-                <Button classname='px-6 border-2 border-white text-white transition-colors duration-300 bg-transparent rounded-full hover:text-black hover:bg-white'>
+                <Button classname='px-6 border-2 border-white text-white transition-colors duration-300 bg-transparent rounded-full hover:text-black hover:bg-white' href='signup'>
                     Register
                 </Button>
                 <Button classname='px-6 text-white transition-colors duration-300 bg-yellow-400 rounded-full hover:bg-yellow-500' href='signin'>

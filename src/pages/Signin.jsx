@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom"
 import Sidebar from "../components/Sidebar"
 import CheckBox from "../components/CheckBox"
@@ -14,7 +13,7 @@ import google from "../assets/google.png"
 function Signin(){
     return(
             <div className="flex items-center justify-center overflow-hidden min-h-dvh min-w-dvw px-16 bg-black" style={{ fontFamily: `Inria Sans`}}>
-                <Sidebar background={Coverflight}>
+                <Sidebar background={Coverflight} xflight='bg-white'>
                 Find Cheap from 1000s of airlines and travel agents 
                 </Sidebar>
                 <div className="px-16 flex flex-col gap-1 justify-center bg-white h-dvh w-[558px]">

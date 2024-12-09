@@ -13,7 +13,7 @@ function Home(){
                 <div>
                     <Header></Header>
                     <div className="flex justify-center">
-                        <Hero>Search and Compare millions of flight deals for free</Hero>
+                        <Hero xcar='hover:bg-opacity-0' xflight='hover:bg-opacity-0' xstay='hover:bg-opacity-0'>Search and Compare millions of flight deals for free</Hero>
                     </div>
                 </div>
             </div>
