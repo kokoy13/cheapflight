@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Countries from '../components/Countries'
 import Footer from '../components/Footer'
+import Button2 from '../components/Button2'
 
 function CarRental(){
     return(
@@ -11,8 +12,12 @@ function CarRental(){
             <div style={{backgroundImage: `url(${car})`}} className="p-5 bg-center bg-cover">
                 <div>
                     <Header></Header>
-                    <div className="flex justify-center">
+                    <div className="flex flex-col">
                         <Hero xcar='bg-transparent' xflight='hover:bg-opacity-0' xstay='hover:bg-opacity-0'>Car Reantal Made Simple.</Hero>
+                        <div className='my-5 flex flex-col gap-3 mx-40'>
+                            <Button2 text='Same Drop-Off' text2='Different Drop-Off'></Button2>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>

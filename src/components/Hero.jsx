@@ -8,14 +8,14 @@ import stay from '../assets/stay-feature.jpg'
 function Hero(props){
     const {children, xflight = '', xcar = '', xstay = ''} = props
     return(
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 items-center">
             <Quote>{children}</Quote>
             <div className="flex justify-center gap-5">
                 <Features background={flight} classname={xflight} target='/flight'>Flight</Features>
                 <Features background={car} classname={xcar} target='/carrental'>Car Rental</Features>
                 <Features background={stay} classname={xstay} target='/stay'>Stay</Features>
             </div>
-            <div className="bg-white py-[1px] w-full"></div>
+            <div className="bg-white py-[1px] w-3/4 flex justify-center"></div>
         </div>
     )
 }
